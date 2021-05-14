@@ -15,7 +15,7 @@ public class CustomersDetails {
 
         Scanner sc = new Scanner(System.in);
 
-        String encrypt = new String("abcdefghijklmnopquvwxyz");
+        String encrypt = new String("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
         System.out.print("Enter customer's first name:\t");
         String fName = sc.nextLine();
         System.out.print("Enter customer's last name:\t");
@@ -47,7 +47,7 @@ public class CustomersDetails {
             FileWriter saving = new FileWriter(accountNumber + "-saving.txt", true);
             BufferedWriter s = new BufferedWriter(saving);
             PrintWriter pws = new PrintWriter(s);
-            pws.print(localDate + "," + "Created" + "," + "€0.0" + "," + savingBalance + "\n");
+            pws.print(localDate + "," + "Created" + "," + "0.0" + "," + savingBalance + "\n");
             pws.close();
             FileWriter current = new FileWriter(accountNumber + ".current.txt", true);
             BufferedWriter c = new BufferedWriter(current);

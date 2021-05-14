@@ -13,7 +13,7 @@ public class PayLogs extends Accounts{
     public PayLogs(){
     }
 
-        public void Lodge(String inAccountNumber) throws IOException {
+        public void Lodge(String inAccountNumber) {
 
             int option = PayLogs.option();
 

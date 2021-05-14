@@ -57,6 +57,7 @@ public class Employees{
                 String firstName, lastName, inAccountCode, inPinNumber;
                 System.out.println("Enter customer's first name:\t");
                 firstName = sc.next();
+
                 System.out.println("Enter  customer's last name:\t");
                 lastName = sc.next();
                 System.out.println("Enter customer's account number:\t");
