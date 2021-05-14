@@ -1,2 +1,3 @@
 Joao paulo,Rodrigues,jr-19-10-18,1018,jp@gmail.com,0.0,0.0
 Joao paulo,Silva,js-15-10-19,1019,jp/-silva@gmail.com,0.0,0.0
+Michele,Sousa,ms-12-13-19,1319,misa@hotmail.copm,0.0,0.0
