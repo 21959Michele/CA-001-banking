@@ -108,7 +108,7 @@ public class PayLogs extends Accounts{
                             printWriter.close();
                             reWriteFileSav(readFromSav, inAccountNumber, savingBF);
                         } else {
-                            System.out.print("Balance can not be negative");
+                            System.out.print("You don't have enough balance" + " \n");
                         }
                     } catch (IOException e) {
                     }
@@ -122,7 +122,7 @@ public class PayLogs extends Accounts{
         private static int option(){
             int selection;
             Scanner sc = new Scanner(System.in);
-            System.out.println("Please choose one option:" + " \n" + " 1.Current account" + " \n" + " 2.Saving account" + " \n" + " 3.Exit");
+            System.out.println("Try again:" + " \n" + " 1.Current account" + " \n" + " 2.Saving account" + " \n" + " 3.Exit");
             selection = sc.nextInt();
             return selection;
         }
@@ -172,7 +172,7 @@ public class PayLogs extends Accounts{
                             transaction = sc.next();
                             type = sc.next();
                             balance = sc.next();
-                            System.out.println(date + " | " + transaction + " | " + type + " | " + balance);
+                            System.out.println(date + " -- " + transaction + " -- " + type + " -- " + balance);
                         }
                     }
                     catch (IOException e){
@@ -190,7 +190,7 @@ public class PayLogs extends Accounts{
                             transaction = sc.next();
                             type = sc.next();
                             balance = sc.next();
-                            System.out.println(date + " | " + transaction + " | " + type + " | " + balance );
+                            System.out.println(date + " -- " + transaction + " -- " + type + " -- " + balance );
                         }
                     } catch (IOException e){
                     }

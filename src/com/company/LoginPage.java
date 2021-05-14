@@ -20,7 +20,7 @@ public class LoginPage {
 
         do {
 
-            System.out.println("-------- WELCOME -------" + " \n" + "Are you employee? Enter 1."+ " \n"+"If you are a Customer enter 2.");
+            System.out.println("------------ WELCOME -----------" + " \n" + "Are you employee?        Enter 1."+ " \n"+"If you are a Customer:   Enter 2.");
 
             codeNumber = sc.nextInt();
 
